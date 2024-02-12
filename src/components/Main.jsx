@@ -10,18 +10,18 @@ export function Main () {
 
                 <div className='flex justify-center items-center flex-col gap-2'>
 
-                    <h1 className='font-sans font-bold text-gray-400 text-2xl'> 
-                    Quieres ser mi San Valentin? </h1>
+                    <h1 className='font-sans font-bold text-fuchsia-800 text-5xl'> 
+                    Quieres Ser Mi San Valentin Joss? ❤ </h1>
 
                     <img src={image} className='w-72'/>
 
-                    <p className='font-mono text-yellow-100'> {textP} </p>
+                    <p className='font-sans text-indigo-600 text-5xl'> {textP} </p>
 
                     <section className='flex gap-3'>
 
-                        <button className='bg-purple-500 w-28 text-white font-bold py-2 px-4 rounded transition-all hover:scale-110' onClick={handleButtonYes}> Si </button>
+                        <button className='bg-blue-600 w-28 text-white font-bold py-8 px-4 rounded transition-all hover:scale-110' onClick={handleButtonYes}> Si </button>
 
-                        <button className='bg-pink-500 w-20 text-white font-bold py-2 px-4 rounded transition-all hover:scale-110' onClick={handleButtonNo}> No </button>
+                        <button className='bg-red-700 w-28 text-white font-bold py-6 px-4 rounded transition-all hover:scale-110' onClick={handleButtonNo}> No </button>
                     </section>
 
                 </div>
